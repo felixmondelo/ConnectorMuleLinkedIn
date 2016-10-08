@@ -1,0 +1,3 @@
+<!-- BEGIN_INCLUDE(connector-mule-linked-in:greet) -->
+    <connector-mule-linked-in:greet config-ref="" friend="#[map-payload:friend]" />
+<!-- END_INCLUDE(connector-mule-linked-in:greet) -->
